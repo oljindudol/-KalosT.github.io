@@ -3413,7 +3413,7 @@ const Rl = {
         alt: "gim1"
     }), g("span", {
         class: "caption"
-    }, "\uc67c\ucabd\ube44\uc11d (E)")], -1),
+    }, "\uc804\ud0c4 (E)")], -1),
     Ql = {
         class: "timer"
     },
@@ -3453,7 +3453,7 @@ const Rl = {
         alt: "gim2"
     }), g("span", {
         class: "caption"
-    }, "\uc67c\ucabd\ube44\uc11d (E)")], -1),
+    }, "\uc804\ud0c4 (E)")], -1),
     Gl = {
         class: "timer"
     },
@@ -3505,7 +3505,7 @@ const Rl = {
         alt: "gim3"
     }), g("span", {
         class: "caption"
-    }, "\uc67c\ucabd\ube44\uc11d (E)")], -1),
+    }, "\uc804\ud0c4 (E)")], -1),
     cc = {
         class: "timer"
     },
@@ -3521,7 +3521,7 @@ const Rl = {
         alt: "gim4"
     }), g("span", {
         class: "caption"
-    }, "\uc67c\ucabd\ube44\uc11d (Q)")], -1),
+    }, "\uc804\ud0c4 (Q)")], -1),
     ac = {
         class: "timer"
     },
