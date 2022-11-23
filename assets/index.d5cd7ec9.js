@@ -3327,7 +3327,7 @@ const Rl = {
             return {
                 autoReset: !1,
                 phase: 1,
-                timeLimit: [20, 60, 40, 55, 55, 70, 35, 35, 35, 65, 30, 180, 120, 200],
+                timeLimit: [15, 15, 150, 10, 15, 150, 35, 35, 35, 65, 30, 180, 120, 200],
                 timeTrigger: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 timePassed: 0,
                 timerInterval: null,
@@ -3389,7 +3389,7 @@ const Rl = {
         alt: "potato"
     }), g("span", {
         class: "caption"
-    }, "\uAC10\uC790 (Q)")], -1),
+    }, "\ud3ed\ud0c4 (Q)")], -1),
     Kl = {
         class: "timer"
     },
@@ -3401,7 +3401,7 @@ const Rl = {
         alt: "lightning"
     }), g("span", {
         class: "caption"
-    }, "\uC804\uAE30 (W)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (W)")], -1),
     ql = {
         class: "timer"
     },
@@ -3413,7 +3413,7 @@ const Rl = {
         alt: "gim1"
     }), g("span", {
         class: "caption"
-    }, "\uAD8C\uB2A5 (E)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (E)")], -1),
     Ql = {
         class: "timer"
     },
@@ -3429,7 +3429,7 @@ const Rl = {
         alt: "potato"
     }), g("span", {
         class: "caption"
-    }, "\uAC10\uC790 (Q)")], -1),
+    }, "\ud3ed\ud0c4 (Q)")], -1),
     Xl = {
         class: "timer"
     },
@@ -3441,7 +3441,7 @@ const Rl = {
         alt: "dog"
     }), g("span", {
         class: "caption"
-    }, "\uC0AC\uC120 (W)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (W)")], -1),
     Zl = {
         class: "timer"
     },
@@ -3453,7 +3453,7 @@ const Rl = {
         alt: "gim2"
     }), g("span", {
         class: "caption"
-    }, "\uAD8C\uB2A5 (E)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (E)")], -1),
     Gl = {
         class: "timer"
     },
@@ -3481,7 +3481,7 @@ const Rl = {
         alt: "potato"
     }), g("span", {
         class: "caption"
-    }, "\uAC10\uC790 (Q)")], -1),
+    }, "\ud3ed\ud0c4 (Q)")], -1),
     ic = {
         class: "timer"
     },
@@ -3493,7 +3493,7 @@ const Rl = {
         alt: "dog"
     }), g("span", {
         class: "caption"
-    }, "\uC0AC\uC120 (W)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (W)")], -1),
     oc = {
         class: "timer"
     },
@@ -3505,7 +3505,7 @@ const Rl = {
         alt: "gim3"
     }), g("span", {
         class: "caption"
-    }, "\uAD8C\uB2A5 (E)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (E)")], -1),
     cc = {
         class: "timer"
     },
@@ -3521,7 +3521,7 @@ const Rl = {
         alt: "gim4"
     }), g("span", {
         class: "caption"
-    }, "\uAD8C\uB2A5 (Q)")], -1),
+    }, "\uc67c\ucabd\ube44\uc11d (Q)")], -1),
     ac = {
         class: "timer"
     },
