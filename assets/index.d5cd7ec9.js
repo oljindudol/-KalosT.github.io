@@ -1,10 +1,3 @@
-var synth = window.speechSynthesis;
-var synth_utter;
-
-
-
-
-
 function() {
     const t = document.createElement("link").relList;
     if (t && t.supports && t.supports("modulepreload")) return;
@@ -30,6 +23,10 @@ function() {
         fetch(i.href, r)
     }
 })();
+
+var synth = window.speechSynthesis;
+var synth_utter;
+
 
 
 if(synth){
