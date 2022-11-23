@@ -3381,7 +3381,7 @@ const Rl = {
                 this.timerInterval = setInterval(() => this.timePassed += 1, 1e3)
             },
             timeLeft(e) {
-				if(e==0)||(e==3)){
+				if((e==0)||(e==3)){
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
 				if(tmptl==4)Speak("폭탄");
 			    if(((tmptl <= 3)&&(tmptl > 0))) Speak(tmptl);
