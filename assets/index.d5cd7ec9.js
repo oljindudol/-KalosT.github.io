@@ -1,4 +1,4 @@
-function() {
+(function() {
     const t = document.createElement("link").relList;
     if (t && t.supports && t.supports("modulepreload")) return;
     for (const i of document.querySelectorAll('link[rel="modulepreload"]')) s(i);
