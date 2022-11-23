@@ -3,31 +3,6 @@ var synth_utter;
 
 
 
-if(synth){
-		synth.addEventListener("voiceschanged", function(){
-			let voices = synth.getVoices();
-			for(let i = 0; i < voices.length; i++){
-				if(voices[i].lang == "ko-KR"){
-					synth_utter = new SpeechSynthesisUtterance();
-					synth_utter.voice = voices[i];
-					synth_utter.lang = voices[i].lang;
-					synth_utter.rate = 2;
-					synth_utter.pitch = 1;
-					synth_utter.volume = 1;
-					break;
-				}
-			}
-		});
-	}
-	
-	
-function Speak(text){
-	if(synth_utter && synth_utter.text != text){
-		synth.cancel();
-		synth_utter.text = text;
-		synth.speak(synth_utter);
-	}
-}
 
 
 function() {
@@ -55,6 +30,34 @@ function() {
         fetch(i.href, r)
     }
 })();
+
+
+if(synth){
+	synth.addEventListener("voiceschanged", function(){
+		let voices = synth.getVoices();
+		for(let i = 0; i < voices.length; i++){
+			if(voices[i].lang == "ko-KR"){
+				synth_utter = new SpeechSynthesisUtterance();
+				synth_utter.voice = voices[i];
+				synth_utter.lang = voices[i].lang;
+				synth_utter.rate = 2;
+				synth_utter.pitch = 1;
+				synth_utter.volume = 1;
+				break;
+			}
+		}
+	});
+}
+
+	
+function Speak(text){
+	if(synth_utter && synth_utter.text != text){
+		synth.cancel();
+		synth_utter.text = text;
+		synth.speak(synth_utter);
+	}
+}
+
 
 function xn(e, t) {
     const n = Object.create(null),
