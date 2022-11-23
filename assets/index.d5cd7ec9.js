@@ -3357,8 +3357,8 @@ const Rl = {
         id: "app",
         class: "outer"
     },
-    Pl = g("h2", null, "\uAC80\uC740 \uB9C8\uBC95\uC0AC \uD328\uD134 \uD0C0\uC774\uBA38", -1),
-    Il = g("span", null, "\uC81C\uC791\uC790 : \uB8E8\uB098/\uC544\uB974\uB9C8\uBA4D&\uCF54", -1),
+    Pl = g("h2", null, "\uce7c\ub85c\uc2a4 \uD328\uD134 \uD0C0\uC774\uBA38", -1),
+    Il = g("span", null, "\uC81C\uC791\uC790 : \ub9ac\ubd80\ud2b8/\ubd84\ud560\uc694\uc815&\uB8E8\uB098/\uC544\uB974\uB9C8\uBA4D&\uCF54", -1),
     Ol = g("br", null, null, -1),
     Ml = g("span", null, [jn("\uC0AC\uC6A9\uC124\uBA85 : "), g("a", {
         href: "https://www.inven.co.kr/board/maple/2304/32341"
