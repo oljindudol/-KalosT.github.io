@@ -1,3 +1,10 @@
+var synth = window.speechSynthesis;
+var synth_utter;
+
+
+
+
+
 (function() {
     const t = document.createElement("link").relList;
     if (t && t.supports && t.supports("modulepreload")) return;
@@ -23,10 +30,6 @@
         fetch(i.href, r)
     }
 })();
-
-var synth = window.speechSynthesis;
-var synth_utter;
-
 
 
 if(synth){
@@ -3378,9 +3381,11 @@ const Rl = {
                 this.timerInterval = setInterval(() => this.timePassed += 1, 1e3)
             },
             timeLeft(e) {
+				if(e==0)||(e==3)){
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
-			    if(tmptl <= 3) Speak(tmptl);
-				
+				if(tmptl==4)Speak("폭탄");
+			    if(((tmptl <= 3)&&(tmptl > 0))) Speak(tmptl);
+				}
                 return this.timeLimit[e] - this.timePassed + this.timeTrigger[e]
             },
             updateTrigger(e) {
