@@ -3401,7 +3401,7 @@ const Rl = {
 				}
 				}
 				
-				if((e==3)||(e==5)){
+				if((e==2)||(e==5)){
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
 				if(tmptl==4){
 				var sound = new Howl({
