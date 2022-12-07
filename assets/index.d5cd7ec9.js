@@ -3389,7 +3389,7 @@ const Rl = {
 				
 				if((e==1)||(e==4)){
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
-				if(tmptl==4){
+				if(tmptl==3){
 				var sound = new Howl({
 				src: ["/-KalosT.github.io/assets/uwenbi.mp3"],
 				volume: 1.0,
@@ -3403,7 +3403,7 @@ const Rl = {
 				
 				if((e==2)||(e==5)){
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
-				if(tmptl==4){
+				if(tmptl==3){
 				var sound = new Howl({
 				src: ["/-KalosT.github.io/assets/zuntan.mp3"],
 				volume: 1.0,
