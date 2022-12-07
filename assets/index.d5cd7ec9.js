@@ -3391,7 +3391,7 @@ const Rl = {
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
 				if(tmptl==4){
 				var sound = new Howl({
-				src: ["/-KalosT.github.io/assets/zuntan.mp3"],
+				src: ["/-KalosT.github.io/assets/uwenbi.mp3"],
 				volume: 1.0,
 				autoplay: true,
 				onend : () => {
@@ -3401,11 +3401,11 @@ const Rl = {
 				}
 				}
 				
-				if((e==3)||(e==6)){
+				if((e==3)||(e==5)){
 				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
 				if(tmptl==4){
 				var sound = new Howl({
-				src: ["/-KalosT.github.io/assets/uwenbi.mp3"],
+				src: ["/-KalosT.github.io/assets/zuntan.mp3"],
 				volume: 1.0,
 				autoplay: true,
 				onend : () => {
