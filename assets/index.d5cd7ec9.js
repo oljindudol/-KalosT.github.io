@@ -3386,6 +3386,35 @@ const Rl = {
 				if(tmptl==4)Speak("폭탄");
 			    if(((tmptl <= 3)&&(tmptl > 0))) Speak(tmptl);
 				}
+				
+				if((e==1)||(e==4)){
+				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
+				if(tmptl==4){
+				var sound = new Howl({
+				src: ["/-KalosT.github.io/assets/zuntan.mp3"],
+				volume: 1.0,
+				autoplay: true,
+				onend : () => {
+				console.log('Finished!');
+				}
+				});
+				}
+				}
+				
+				if((e==3)||(e==6)){
+				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
+				if(tmptl==4){
+				var sound = new Howl({
+				src: ["/-KalosT.github.io/assets/uwenbi.mp3"],
+				volume: 1.0,
+				autoplay: true,
+				onend : () => {
+				console.log('Finished!');
+				}
+				});
+				}
+				}
+				
                 return this.timeLimit[e] - this.timePassed + this.timeTrigger[e]
             },
             updateTrigger(e) {
