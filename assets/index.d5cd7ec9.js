@@ -3362,7 +3362,7 @@ const Rl = {
             return {
                 autoReset: !1,
                 phase: 1,
-                timeLimit: [14, 14, 158, 9, 14, 158, 35, 35, 35, 65, 30, 60, 45, 30],
+                timeLimit: [14, 14, 158, 9, 14, 158, 35, 35, 35, 65, 30, 59, 44, 29],
                 timeTrigger: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 timePassed: 0,
                 timerInterval: null,
@@ -3381,39 +3381,7 @@ const Rl = {
                 this.timerInterval = setInterval(() => this.timePassed += 1, 1e3)
             },
             timeLeft(e) {
-				if((e==0)||(e==3)){
-				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
-				if(tmptl==4)Speak("폭탄");
-			    if(((tmptl <= 3)&&(tmptl > 0))) Speak(tmptl);
-				}
-				
-				if((e==1)||(e==4)){
-				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
-				if(tmptl==3){
-				var sound = new Howl({
-				src: ["/-KalosT.github.io/assets/uwenbi.mp3"],
-				volume: 1.0,
-				autoplay: true,
-				onend : () => {
-				console.log('Finished!');
-				}
-				});
-				}
-				}
-				
-				if((e==2)||(e==5)){
-				var tmptl= this.timeLimit[e] - this.timePassed + this.timeTrigger[e] ;
-				if(tmptl==3){
-				var sound = new Howl({
-				src: ["/-KalosT.github.io/assets/zuntan.mp3"],
-				volume: 1.0,
-				autoplay: true,
-				onend : () => {
-				console.log('Finished!');
-				}
-				});
-				}
-				}
+
 				
                 return this.timeLimit[e] - this.timePassed + this.timeTrigger[e]
             },
