@@ -3362,7 +3362,7 @@ const Rl = {
             return {
                 autoReset: !1,
                 phase: 1,
-                timeLimit: [14, 14, 158, 10, 15, 158, 35, 35, 35, 65, 30, 60, 45, 30],
+                timeLimit: [14, 14, 158, 9, 14, 158, 35, 35, 35, 65, 30, 60, 45, 30],
                 timeTrigger: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
                 timePassed: 0,
                 timerInterval: null,
